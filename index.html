@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>newTab</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <section class="center">
+      <div class="js-clock clock">
+        <h1>00:00:00</h1>
+      </div>
+      
+      <form class="js-form form">
+        <input type="text" class="nameInput" placeholder="What is your name?" />
+      </form>
+      <h4 class="js-greetings greetings nameText"></h4>
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank" style= "background-color:transparent;opacity: 0.5;">
+        <input name="sitesearch" type="hidden" >
+        <input autocomplete="off" class="form-control search" name="q" placeholder="Google...." required="required"  type="text">
+        <!--<button class="button" type="submit" >Search</button>-->
+      </form>
+      
+      
+    </section>
+   
+    
+    <div class="js-weather weather"></span>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+    
+  </body>
+</html>
